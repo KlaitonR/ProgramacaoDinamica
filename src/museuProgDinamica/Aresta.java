@@ -1,3 +1,5 @@
+package museuProgDinamica;
+
 public class Aresta {
 	
 	String label;

@@ -1,3 +1,4 @@
+package museuProgDinamica;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -53,7 +54,6 @@ public class Museu {
 						}else {
 							atual.index++;
 						}
-
 					}
 				}else {
 					System.out.println("Todas as salas vizinhas de " +
@@ -240,17 +240,4 @@ public class Museu {
         }
         System.out.println(path);
     }
-}
-
-class Vertice{
-	
-	String nome;
-	Vertice Pai;
-	int index;
-	ArrayList<Vertice> filhos = new ArrayList<Vertice>();
-	boolean visitado;
-	
-	public Vertice(String nome) {
-		this.nome = nome;
-	}
 }
